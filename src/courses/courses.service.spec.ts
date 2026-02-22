@@ -25,7 +25,7 @@ describe('CoursesService', () => {
     });
     expect(newCourse).toHaveProperty('id');
     expect(newCourse.title).toBe('Intro to NestJS');
-    expect(service.findAll().length).toBe(1);
+    expect(service.findAll().length).toBe(8);
   });
 
   it('should throw NotFoundException for invalid ID', () => {
